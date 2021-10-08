@@ -86,28 +86,98 @@ body {
   height: inherit;
 } */
 .decor_0 {
-  /* width: 1000px; */
   height: auto;
   transform: translate(670px, 13px);
 }
-.person_1{
+.person_1 {
+  height: auto;
+  width: 105%;
+  position: absolute;
+  top: 0;
+  right: -70px;
+  z-index: 1;
+}
+.person_2 {
+  /* width: 36%;
   height: auto;
   position: absolute;
-  width: 100%;
-  top: 0;
-  right:-59px;
-  /* transform: translate(0,-59px); */
+  bottom: -20px;
+  right: -1px;
+  z-index: 5; */
+  width: 35%;
+  height: auto;
+  position: absolute;
+  bottom: -8px;
+  right: -1px;
+  z-index: 5;
 }
-.decor_1{
+/* .person_1 {
+  height: auto;
+  position: absolute;
+  width: 108%;
+  top: 0px;
+  right: -105px;
+  z-index: 1;
+} */
+.decor_block-1__decor_1 {
   width: 303px;
   position: absolute;
   left: 610px;
   top: 12px;
-  /* transform: translate(600px,17px); */
+  z-index: 2;
 }
-.decor_2{
-  width: 70%;
+.decor_block-1__decor_2 {
+  width: 105%;
   position: absolute;
-  left: 409px;
-  top: 52px;
+  left: 200px;
+  top: -18px;
+  z-index: 2;
+}
+
+/* TODO */
+.decor_block-1__decor_3 {
+  width: 85%;
+  position: absolute;
+  left: 166px;
+  top: 200px;
+  z-index: 5;
+}
+.decor_block-1__decor_4 {
+  width: 50%;
+  position: absolute;
+  left: 490px;
+  top: 265px;
+  z-index: 3;
+}
+.decor_block-1__decor_5 {
+  /* width: 130%;
+  position: absolute;
+  left: 0px;
+  top: 225px;
+  z-index: 5; */
+
+  width: 125%;
+  position: absolute;
+  left: 0px;
+  top: 205px;
+  z-index: 5;
+  /* width: 130%;
+  position: absolute;
+  left: -39px;
+  top: 225px;
+  z-index: 5; */
+}
+.decor_block-2__decor_1 {
+  width: 80%;
+  position: absolute;
+  right: -15px;
+  bottom: -55px;
+  z-index: 5;
+}
+.decor_block-2__decor_2{
+  width: 350px;
+  position: absolute;
+  right: -85px;
+  bottom: -115px;
+  z-index: 5;
 }
