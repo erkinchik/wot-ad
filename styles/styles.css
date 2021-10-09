@@ -111,6 +111,14 @@ body {
   right: -1px;
   z-index: 5;
 }
+.person_3 {
+  width: 45%;
+  height: auto;
+  position: absolute;
+  bottom: -180px;
+  left: 300px;
+  z-index: 5;
+}
 /* .person_1 {
   height: auto;
   position: absolute;
@@ -174,10 +182,52 @@ body {
   bottom: -55px;
   z-index: 5;
 }
-.decor_block-2__decor_2{
+.decor_block-2__decor_2 {
   width: 350px;
   position: absolute;
   right: -85px;
   bottom: -115px;
+  z-index: 6;
+}
+.decor_block-3__decor_1 {
+  width: 80%;
+  position: absolute;
+  right: -13px;
+  bottom: -90px;
+  z-index: 6;
+}
+.decor_block-3__decor_2 {
+  width: 160%;
+  position: absolute;
+  left: 130px;
+  bottom: -108px;
+  z-index: 5;
+}
+.decor_block-3__decor_3 {
+  width: 90%;
+  position: absolute;
+  right: 30px;
+  bottom: -370px;
+  z-index: 5;
+}
+.decor_block-3__decor_4 {
+  width: 80%;
+  position: absolute;
+  right: -95px;
+  bottom: -5px;
+  z-index: 5;
+}
+.decor_block-3__decor_5 {
+  width: 85%;
+  position: absolute;
+  right: -160px;
+  bottom: -20px;
+  z-index: 5;
+}
+.decor_block-3__decor_6 {
+  width: 100%;
+  position: absolute;
+  right: -80px;
+  bottom: -20px;
   z-index: 5;
 }
