@@ -48,17 +48,17 @@ body {
   width: 75px;
 }
 .text-block__logo {
-  width: 165px;
+  width: 150px;
   margin: 0 0 40px 10px;
 }
 .text-block__text1 {
-  width: 365px;
+  width: 48%;
   margin-left: 8px;
 }
 .text-block__tankui {
 }
 .text-block__tankui-text {
-  width: 450px;
+  width: 60%;
   margin-bottom: 25px;
 }
 /* .text-block__tankui-spray{
@@ -85,17 +85,24 @@ body {
   width: inherit;
   height: inherit;
 } */
-.decor_0 {
+.decor_block-2 {
+  width: inherit;
+  height: inherit;
+}
+.decor_block-1__decor_0 {
   height: auto;
-  transform: translate(670px, 13px);
+  position: absolute;
+  top: 90px;
+  left: 535px;
+  z-index: 1;
 }
 .person_1 {
   height: auto;
-  width: 105%;
+  width: 103%;
   position: absolute;
-  top: 0;
-  right: -70px;
-  z-index: 1;
+  top: 1px;
+  right: 0px;
+  z-index: 0;
 }
 .person_2 {
   /* width: 36%;
@@ -104,20 +111,20 @@ body {
   bottom: -20px;
   right: -1px;
   z-index: 5; */
-  width: 35%;
+  width: 39%;
   height: auto;
   position: absolute;
-  bottom: -8px;
-  right: -1px;
-  z-index: 5;
+  bottom: -50px;
+  right: 18px;
+  z-index: 0;
 }
 .person_3 {
-  width: 45%;
+  width: 46%;
   height: auto;
   position: absolute;
   bottom: -180px;
-  left: 300px;
-  z-index: 5;
+  left: 232px;
+  z-index: 0;
 }
 /* .person_1 {
   height: auto;
@@ -130,25 +137,25 @@ body {
 .decor_block-1__decor_1 {
   width: 303px;
   position: absolute;
-  left: 610px;
-  top: 12px;
-  z-index: 2;
+  left: 585px;
+  top: 18px;
+  z-index: 0;
 }
 .decor_block-1__decor_2 {
-  width: 105%;
+  width: 95%;
   position: absolute;
-  left: 200px;
-  top: -18px;
-  z-index: 2;
+  left: 195px;
+  top: 12px;
+  z-index: 0;
 }
 
 /* TODO */
 .decor_block-1__decor_3 {
   width: 85%;
   position: absolute;
-  left: 166px;
-  top: 200px;
-  z-index: 5;
+  left: 100px;
+  top: 204px;
+  z-index: 0;
 }
 .decor_block-1__decor_4 {
   width: 50%;
@@ -158,56 +165,46 @@ body {
   z-index: 3;
 }
 .decor_block-1__decor_5 {
-  /* width: 130%;
+  width: 113%;
   position: absolute;
-  left: 0px;
-  top: 225px;
-  z-index: 5; */
-
-  width: 125%;
-  position: absolute;
-  left: 0px;
-  top: 205px;
-  z-index: 5;
-  /* width: 130%;
-  position: absolute;
-  left: -39px;
-  top: 225px;
-  z-index: 5; */
+  left: -10px;
+  top: 200px;
+  z-index: 0;
 }
+
 .decor_block-2__decor_1 {
-  width: 80%;
+  width: 64%;
   position: absolute;
-  right: -15px;
-  bottom: -55px;
-  z-index: 5;
+  right: -1px;
+  bottom: -20px;
+  z-index: 0;
 }
 .decor_block-2__decor_2 {
   width: 350px;
   position: absolute;
-  right: -85px;
+  right: -95px;
   bottom: -115px;
   z-index: 6;
 }
 .decor_block-3__decor_1 {
   width: 80%;
   position: absolute;
-  right: -13px;
+  right: -8px;
   bottom: -90px;
   z-index: 6;
 }
 .decor_block-3__decor_2 {
   width: 160%;
   position: absolute;
-  left: 130px;
-  bottom: -108px;
+  left: 93px;
+  bottom: -92px;
   z-index: 5;
 }
 .decor_block-3__decor_3 {
   width: 90%;
   position: absolute;
-  right: 30px;
-  bottom: -370px;
+  right: 70px;
+  bottom: -360px;
   z-index: 5;
 }
 .decor_block-3__decor_4 {
