@@ -36,29 +36,30 @@ body {
   padding-top: 55px;
 }
 .button-block {
-  position: relative;
+  position: absolute;
+  bottom: 175px;
 }
 .button-block__button {
-  width: 193px;
+  width: 159px;
 }
 .button-block__button-text {
   position: absolute;
-  top: 23px;
-  left: 55px;
-  width: 75px;
+  top: 17px;
+  left: 41px;
+  width: 70px
 }
 .text-block__logo {
-  width: 150px;
+  width: 135px;
   margin: 0 0 40px 10px;
 }
 .text-block__text1 {
-  width: 48%;
-  margin-left: 8px;
+  width: 43%;
+  margin: 0 0 5px 8px;
 }
 .text-block__tankui {
 }
 .text-block__tankui-text {
-  width: 60%;
+  width: 54%;
   margin-bottom: 25px;
 }
 /* .text-block__tankui-spray{
@@ -111,11 +112,11 @@ body {
   bottom: -20px;
   right: -1px;
   z-index: 5; */
-  width: 39%;
+  width: 42%;
   height: auto;
   position: absolute;
-  bottom: -50px;
-  right: 18px;
+  bottom: -78px;
+  right: 17px;
   z-index: 0;
 }
 .person_3 {
@@ -135,10 +136,10 @@ body {
   z-index: 1;
 } */
 .decor_block-1__decor_1 {
-  width: 303px;
+  width: 35%;
   position: absolute;
-  left: 585px;
-  top: 18px;
+  left: 521px;
+  top: 2px;
   z-index: 0;
 }
 .decor_block-1__decor_2 {
@@ -158,10 +159,10 @@ body {
   z-index: 0;
 }
 .decor_block-1__decor_4 {
-  width: 50%;
+  width: 40%;
   position: absolute;
-  left: 490px;
-  top: 265px;
+  left: 467px;
+  top: 277px;
   z-index: 3;
 }
 .decor_block-1__decor_5 {
@@ -210,21 +211,21 @@ body {
 .decor_block-3__decor_4 {
   width: 80%;
   position: absolute;
-  right: -95px;
+  right: 65px;
   bottom: -5px;
-  z-index: 5;
+  z-index: 4;
 }
 .decor_block-3__decor_5 {
-  width: 85%;
+  width: 70%;
   position: absolute;
-  right: -160px;
-  bottom: -20px;
+  right: -6px;
+  bottom: 0px;
   z-index: 5;
 }
 .decor_block-3__decor_6 {
-  width: 100%;
+  width: 85%;
   position: absolute;
-  right: -80px;
-  bottom: -20px;
+  right: 64px;
+  bottom: 24px;
   z-index: 5;
 }
